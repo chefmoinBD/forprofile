@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Course Not Found | Chef Mainuddin Ahmed</title>
+  
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Mono&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-primary: #0F1714;
+      --bg-surface: #1E3A2F;
+      --gold-primary: #D9B866;
+      --gold-accent: #B8913A;
+      --text-primary: #FAF6EC;
+      --text-muted: #8E9F96;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+      background-image: radial-gradient(circle at center, rgba(30, 58, 47, 0.5) 0%, rgba(15, 23, 20, 0.95) 70%);
+    }
+
+    .error-card {
+      max-width: 540px;
+      padding: 3.5rem 2.5rem;
+      background: rgba(26, 44, 36, 0.65);
+      border: 1px solid rgba(217, 184, 102, 0.3);
+      border-radius: 20px;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+    }
+
+    .error-badge {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      color: var(--gold-primary);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .error-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 6vw, 3.8rem);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    .error-text {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2.2rem;
+    }
+
+    .return-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: linear-gradient(135deg, #F4E7C3 0%, #D9B866 50%, #B8913A 100%);
+      color: #0F1714;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.85rem 2rem;
+      border-radius: 9999px;
+      box-shadow: 0 4px 20px rgba(217, 184, 102, 0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .return-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(217, 184, 102, 0.45);
+    }
+  </style>
+</head>
+<body>
+  <div class="error-card">
+    <div class="error-badge">404 · Table Not Reserved</div>
+    <h1 class="error-title">Course Not Found</h1>
+    <p class="error-text">
+      The culinary page you are looking for has either been repositioned on the tasting menu or does not exist in our kitchen.
+    </p>
+    <a href="./" class="return-btn">
+      <span>Return to Main Kitchen</span>
+      <span>→</span>
+    </a>
+  </div>
+</body>
+</html>

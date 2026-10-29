@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mainuddin Ahmed | Chef & Culinary Portfolio</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Mainuddin Ahmed | Chef & Culinary Portfolio">
+  <meta name="description" content="Luxury culinary portfolio for Commis Chef Mainuddin Ahmed. Multi-cuisine expertise in Japanese sushi & ramen, Italian pasta & pizza, Thai wok mastery, and authentic Bengali cuisine.">
+  <meta name="keywords" content="Chef Mainuddin Ahmed, Commis Chef, Culinary Portfolio, Japanese Sushi, Italian Pasta, Dhaka Chef, Tommy Miah Culinary Arts, Food Presentation">
+  <meta name="author" content="Chef Mainuddin Ahmed">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./">
+  <meta property="og:title" content="Mainuddin Ahmed | Chef & Culinary Portfolio">
+  <meta property="og:description" content="A motivated young chef with professional training at Tommy Miah's Hospitality Management Institute (City & Guilds). Specializing in Japanese, Italian, Asian, and Bengali gastronomy.">
+  <meta property="og:image" content="./assets/images/chef-mainuddin.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mainuddin Ahmed | Chef & Culinary Portfolio">
+  <meta name="twitter:description" content="Commis Chef specializing in Japanese, Italian, Thai, and Bengali gastronomy. Trained at Tommy Miah's Hospitality Management Institute.">
+  <meta name="twitter:image" content="./assets/images/chef-mainuddin.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+
+  <!-- Google Fonts: Editorial Serif + Modern Clean Sans + Monospace Numerals -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Pinned CDN Libraries for Smooth Motion & GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+  <!-- Pure Static CSS Link -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Inline SVG Gradient Definition for Gauges -->
+  <svg width="0" height="0" style="position: absolute;">
+    <defs>
+      <linearGradient id="goldGradientSvg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#F4E7C3" />
+        <stop offset="50%" stop-color="#D9B866" />
+        <stop offset="100%" stop-color="#B8913A" />
+      </linearGradient>
+    </defs>
+  </svg>
+</head>
+<body>
+
+  <!-- Subtle Texture Grain Overlay -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Gold Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <!-- Custom Magnetic Cursor (Desktop) -->
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+  <div class="custom-cursor-follower" id="cursorFollower" aria-hidden="true"></div>
+
+  <!-- Preloader Curtain -->
+  <div class="preloader" id="preloader" aria-label="Loading portfolio experience">
+    <svg class="preloader-hat-svg" viewBox="0 0 64 64" fill="none">
+      <path class="preloader-hat-path" d="M22 38C18.6863 38 16 35.3137 16 32C16 29.1308 18.0163 26.7323 20.7208 26.1368C20.2562 25.1788 20 24.1189 20 23C20 19.134 23.134 16 27 16C28.3297 16 29.5694 16.3705 30.6277 17.0125C31.0664 16.9744 31.5276 16.9531 32 16.9531C32.4724 16.9531 32.9336 16.9744 33.3723 17.0125C34.4306 16.3705 35.6703 16 37 16C40.866 16 44 19.134 44 23C44 24.1189 43.7438 25.1788 43.2792 26.1368C45.9837 26.7323 48 29.1308 48 32C48 35.3137 45.3137 38 42 38H22Z" stroke="#D9B866" stroke-width="2" />
+      <path d="M21 40H43V45C43 46.1046 42.1046 47 41 47H23C21.8954 47 21 46.1046 21 45V40Z" fill="#B8913A" />
+    </svg>
+    <div class="preloader-counter" id="preloaderCounter">0%</div>
+    <div class="preloader-text">Mise en Place</div>
+  </div>
+
+  <!-- Sticky Glass Navigation Bar -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container navbar-inner">
+      <!-- Zone 1: Single Wordmark -->
+      <a href="#hero" class="nav-brand" aria-label="Chef Mainuddin Ahmed home">
+        <div class="nav-brand-logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9B866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/>
+            <line x1="6" y1="17" x2="18" y2="17"/>
+          </svg>
+        </div>
+        <span class="nav-brand-text">Chef Mainuddin</span>
+      </a>
+
+      <!-- Zone 2: Navigation Links -->
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Cuisines & Skills</a>
+        <a href="#dishes" class="nav-link">Signature Dishes</a>
+        <a href="#timeline" class="nav-link">Experience</a>
+        <a href="#code" class="nav-link">Kitchen Code</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Zone 3: Actions & Dark/Light Toggle -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark and light theme">
+          <span id="themeIcon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+        </button>
+
+        <a href="#contact" class="nav-cta-btn">Hire Chef</a>
+
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open mobile navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Fullscreen Menu Drawer -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button id="mobileMenuClose" style="position: absolute; top: 1.5rem; right: 1.5rem; background: none; border: none; color: var(--text-primary); font-size: 2rem; cursor: pointer;" aria-label="Close menu">✕</button>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#skills" class="mobile-nav-link">Cuisines & Skills</a>
+    <a href="#dishes" class="mobile-nav-link">Signature Dishes</a>
+    <a href="#timeline" class="mobile-nav-link">Experience</a>
+    <a href="#code" class="mobile-nav-link">Kitchen Code</a>
+    <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- =======================================================================
+         1. HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="hero">
+      <canvas class="hero-canvas" id="heroSteamCanvas"></canvas>
+      <div class="hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow-2" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Left Column: Editorial Typography -->
+        <div class="hero-text-content">
+          <div class="hero-kicker-row">
+            <span class="hero-kicker">Commis Chef · Culinary Arts</span>
+            <div class="hero-kicker-line"></div>
+          </div>
+
+          <h1 class="hero-title">
+            Mainuddin Ahmed
+          </h1>
+
+          <div class="hero-rotating-subtitle">
+            Specializing in <span class="rotating-text-slot" id="rotatingSubtitle">Japanese · Sushi & Sashimi</span>
+          </div>
+
+          <p class="hero-bio-lead">
+            Multi-cuisine commis chef trained at Tommy Miah’s Hospitality Management Institute (City & Guilds). Driven by precise knife craftsmanship, immaculate kitchen hygiene, and artistic plate presentation.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#dishes" class="btn-primary">
+              <span>View My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn-secondary">
+              <span>Hire Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Zero-Pill Unboxed Trust Metadata -->
+          <div class="hero-trust-bar">
+            <span>City & Guilds Certified</span>
+            <span class="sep">·</span>
+            <span>Based in Dhaka, Bangladesh</span>
+            <span class="sep">·</span>
+            <span>Ready for Immediate Relocation</span>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Circular Gold-Ringed Portrait & Floating Badge -->
+        <div class="hero-portrait-wrapper">
+          <div class="portrait-halo-outer"></div>
+          <div class="portrait-halo-inner"></div>
+
+          <div class="portrait-frame">
+            <img 
+              src="./assets/images/chef-mainuddin.jpg" 
+              alt="Portrait of Chef Mainuddin Ahmed in professional chef uniform" 
+              class="portrait-img"
+              width="380"
+              height="380"
+              loading="eager"
+            >
+          </div>
+
+          <!-- Floating Badge -->
+          <div class="hero-floating-badge">
+            <div class="floating-badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div>
+              <div class="floating-badge-title">Commis Chef</div>
+              <div class="floating-badge-sub">Ascott Place & Multi-Cuisine</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         INFINITE MARQUEE STRIP
+         ======================================================================= -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-content">
+        <span class="marquee-item">Japanese Sushi & Sashimi <span class="glyph">✦</span></span>
+        <span class="marquee-item">Handmade Italian Pasta <span class="glyph">✦</span></span>
+        <span class="marquee-item">High-Heat Thai Wok <span class="glyph">✦</span></span>
+        <span class="marquee-item">Artisan Wood-Fired Pizza <span class="glyph">✦</span></span>
+        <span class="marquee-item">Rich Bengali Curries <span class="glyph">✦</span></span>
+        <span class="marquee-item">Strict HACCP Food Safety <span class="glyph">✦</span></span>
+        <span class="marquee-item">Mise en Place Precision <span class="glyph">✦</span></span>
+        <span class="marquee-item">Artistic Plating <span class="glyph">✦</span></span>
+        <!-- Duplicated for seamless loop -->
+        <span class="marquee-item">Japanese Sushi & Sashimi <span class="glyph">✦</span></span>
+        <span class="marquee-item">Handmade Italian Pasta <span class="glyph">✦</span></span>
+        <span class="marquee-item">High-Heat Thai Wok <span class="glyph">✦</span></span>
+        <span class="marquee-item">Artisan Wood-Fired Pizza <span class="glyph">✦</span></span>
+        <span class="marquee-item">Rich Bengali Curries <span class="glyph">✦</span></span>
+        <span class="marquee-item">Strict HACCP Food Safety <span class="glyph">✦</span></span>
+        <span class="marquee-item">Mise en Place Precision <span class="glyph">✦</span></span>
+        <span class="marquee-item">Artistic Plating <span class="glyph">✦</span></span>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         2. ABOUT SECTION
+         ======================================================================= -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-card">
+          <img 
+            src="./assets/images/chef-mainuddin.jpg" 
+            alt="Chef Mainuddin Ahmed presenting hospitality discipline" 
+            loading="lazy"
+            width="500"
+            height="520"
+          >
+          <div class="about-experience-stamp">
+            <div class="stamp-number">1+</div>
+            <div class="stamp-label">Year Professional Kitchen Experience</div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-kicker">The Chef's Journey</span>
+          <h2 class="section-title">Discipline, Knife Artistry & Flavour Harmony</h2>
+
+          <div class="about-quote">
+            "Food that looks as exquisite as it tastes begins with strict station hygiene and respectful ingredient preparation."
+          </div>
+
+          <div class="about-story">
+            <p>
+              I am a disciplined young chef with one year of practical kitchen experience in multi-cuisine environments and formal training from <strong>Tommy Miah’s Hospitality Management Institute (City & Guilds)</strong>. My professional background spans intense service shifts, preparing ingredients for Japanese, Italian, Thai, Korean, Indian, and Bengali kitchens.
+            </p>
+            <p>
+              During my culinary internship at <strong>Ascott Place, Baridhara, Dhaka</strong>, I learned high-standard hospitality workflows alongside seasoned executive chefs. Whether handling sushi slicing, simmering authentic ramen broth bases, kneading fresh pizza dough, or controlling flame intensity on a commercial wok, I bring meticulous focus, punctuality, and calm under pressure.
+            </p>
+          </div>
+
+          <!-- Animated Metric Counters -->
+          <div class="metrics-strip">
+            <div class="metric-item">
+              <span class="metric-value" data-target="1" data-suffix=" Yr">0</span>
+              <span class="metric-label">Kitchen Experience</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value" data-target="6" data-suffix="+">0</span>
+              <span class="metric-label">Cuisines Mastered</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value" data-target="3" data-suffix=" Lang">0</span>
+              <span class="metric-label">Languages Spoken</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. SKILLS & PROFICIENCY (Radial Matrix & Flip Accordion)
+         ======================================================================= -->
+    <section class="section" id="skills" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Culinary Repertoire</span>
+          <h2 class="section-title">Cuisine Proficiency & Kitchen Crafts</h2>
+          <p class="section-subtitle">
+            Self-assessed competencies honed through vocational institute certifications and live kitchen line experience.
+          </p>
+        </div>
+
+        <div class="skills-layout">
+          <!-- Left: Animated Radial Gauges -->
+          <div class="radial-matrix-container">
+            <h3 class="radial-matrix-title">Cuisine Competency Matrix</h3>
+            
+            <div class="radial-gauges-grid">
+              <!-- Japanese (85%) -->
+              <div class="gauge-card">
+                <div class="gauge-svg-wrap">
+                  <svg class="gauge-svg" viewBox="0 0 80 80">
+                    <circle class="gauge-bg-circle" cx="40" cy="40" r="36" />
+                    <circle class="gauge-progress-circle" data-percent="85" cx="40" cy="40" r="36" />
+                  </svg>
+                  <div class="gauge-number">85%</div>
+                </div>
+                <div class="gauge-name">Japanese</div>
+              </div>
+
+              <!-- Italian (80%) -->
+              <div class="gauge-card">
+                <div class="gauge-svg-wrap">
+                  <svg class="gauge-svg" viewBox="0 0 80 80">
+                    <circle class="gauge-bg-circle" cx="40" cy="40" r="36" />
+                    <circle class="gauge-progress-circle" data-percent="80" cx="40" cy="40" r="36" />
+                  </svg>
+                  <div class="gauge-number">80%</div>
+                </div>
+                <div class="gauge-name">Italian</div>
+              </div>
+
+              <!-- Indian & Bengali (80%) -->
+              <div class="gauge-card">
+                <div class="gauge-svg-wrap">
+                  <svg class="gauge-svg" viewBox="0 0 80 80">
+                    <circle class="gauge-bg-circle" cx="40" cy="40" r="36" />
+                    <circle class="gauge-progress-circle" data-percent="80" cx="40" cy="40" r="36" />
+                  </svg>
+                  <div class="gauge-number">80%</div>
+                </div>
+                <div class="gauge-name">Indian & Bengali</div>
+              </div>
+
+              <!-- Thai & Chinese (75%) -->
+              <div class="gauge-card">
+                <div class="gauge-svg-wrap">
+                  <svg class="gauge-svg" viewBox="0 0 80 80">
+                    <circle class="gauge-bg-circle" cx="40" cy="40" r="36" />
+                    <circle class="gauge-progress-circle" data-percent="75" cx="40" cy="40" r="36" />
+                  </svg>
+                  <div class="gauge-number">75%</div>
+                </div>
+                <div class="gauge-name">Thai & Chinese</div>
+              </div>
+
+              <!-- Pizza & Baking (75%) -->
+              <div class="gauge-card">
+                <div class="gauge-svg-wrap">
+                  <svg class="gauge-svg" viewBox="0 0 80 80">
+                    <circle class="gauge-bg-circle" cx="40" cy="40" r="36" />
+                    <circle class="gauge-progress-circle" data-percent="75" cx="40" cy="40" r="36" />
+                  </svg>
+                  <div class="gauge-number">75%</div>
+                </div>
+                <div class="gauge-name">Pizza & Dough</div>
+              </div>
+
+              <!-- Korean Prep (60%) -->
+              <div class="gauge-card">
+                <div class="gauge-svg-wrap">
+                  <svg class="gauge-svg" viewBox="0 0 80 80">
+                    <circle class="gauge-bg-circle" cx="40" cy="40" r="36" />
+                    <circle class="gauge-progress-circle" data-percent="60" cx="40" cy="40" r="36" />
+                  </svg>
+                  <div class="gauge-number">60%</div>
+                </div>
+                <div class="gauge-name">Korean Prep</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Techniques Accordion -->
+          <div class="technique-cards-grid">
+            <!-- Japanese -->
+            <div class="technique-accordion-item active">
+              <div class="technique-header">
+                <div class="technique-header-title">
+                  <span class="technique-flag">🇯🇵</span>
+                  <span>Japanese Raw Bar & Hot Broths</span>
+                </div>
+                <span class="technique-chevron">▾</span>
+              </div>
+              <div class="technique-body">
+                <div class="technique-tags">
+                  <span class="technique-tag">Sushi & Nigiri Rolling</span>
+                  <span class="technique-tag">Sashimi Precision Slicing</span>
+                  <span class="technique-tag">Crisp Tempura Batter</span>
+                  <span class="technique-tag">Ramen Dashi & Broths</span>
+                  <span class="technique-tag">Teriyaki & Ponzu Glazes</span>
+                  <span class="technique-tag">Zen Plating Geometry</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Italian & Pizza -->
+            <div class="technique-accordion-item">
+              <div class="technique-header">
+                <div class="technique-header-title">
+                  <span class="technique-flag">🇮🇹</span>
+                  <span>Italian Pasta, Sauces & Oven Baking</span>
+                </div>
+                <span class="technique-chevron">▾</span>
+              </div>
+              <div class="technique-body">
+                <div class="technique-tags">
+                  <span class="technique-tag">Fresh Pasta Extrusion</span>
+                  <span class="technique-tag">Classic Basil Pesto</span>
+                  <span class="technique-tag">Slow-Cooked Marinara</span>
+                  <span class="technique-tag">Velvety Alfredo Sauce</span>
+                  <span class="technique-tag">Fermented Pizza Dough</span>
+                  <span class="technique-tag">High-Heat Deck Baking</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thai & Chinese -->
+            <div class="technique-accordion-item">
+              <div class="technique-header">
+                <div class="technique-header-title">
+                  <span class="technique-flag">🇹🇭</span>
+                  <span>Thai & Chinese High-Heat Wok Handling</span>
+                </div>
+                <span class="technique-chevron">▾</span>
+              </div>
+              <div class="technique-body">
+                <div class="technique-tags">
+                  <span class="technique-tag">Wok Hei Breath Control</span>
+                  <span class="technique-tag">Fresh Curry Pastes</span>
+                  <span class="technique-tag">Aromatic Broth Reductions</span>
+                  <span class="technique-tag">Rapid Flash Stir-Frying</span>
+                  <span class="technique-tag">Dim Sum Mise en Place</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Indian & Bengali -->
+            <div class="technique-accordion-item">
+              <div class="technique-header">
+                <div class="technique-header-title">
+                  <span class="technique-flag">🇧🇩</span>
+                  <span>Indian & Bengali Regional Heritage</span>
+                </div>
+                <span class="technique-chevron">▾</span>
+              </div>
+              <div class="technique-body">
+                <div class="technique-tags">
+                  <span class="technique-tag">Whole Spice Tempering (Tarka)</span>
+                  <span class="technique-tag">Slow Bhuna Gravy Reductions</span>
+                  <span class="technique-tag">Panch Phoron Seasoning</span>
+                  <span class="technique-tag">Authentic Fish & Biryani Aromatics</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Craft & Hygiene -->
+            <div class="technique-accordion-item">
+              <div class="technique-header">
+                <div class="technique-header-title">
+                  <span class="technique-flag">🔪</span>
+                  <span>Station Craft & HACCP Safety Standards</span>
+                </div>
+                <span class="technique-chevron">▾</span>
+              </div>
+              <div class="technique-body">
+                <div class="technique-tags">
+                  <span class="technique-tag">Knife Honing & Sharpening</span>
+                  <span class="technique-tag">Flawless Mise en Place</span>
+                  <span class="technique-tag">Zero Cross-Contamination</span>
+                  <span class="technique-tag">Temperature Log Compliance</span>
+                  <span class="technique-tag">Consistent Portion Weighing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. SIGNATURE DISHES GALLERY (Filterable & Lightbox)
+         ======================================================================= -->
+    <section class="section" id="dishes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">From The Kitchen Line</span>
+          <h2 class="section-title">Signature Dishes & Culinary Plating</h2>
+          <p class="section-subtitle">
+            A curation of dishes crafted across Japanese, Italian, Asian, and regional training stations. Click any dish to view recipe details and station preparation notes.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="gallery-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Specialties</button>
+          <button class="filter-btn" data-filter="japanese">Japanese</button>
+          <button class="filter-btn" data-filter="italian">Italian & Pizza</button>
+          <button class="filter-btn" data-filter="asian">Thai & Wok</button>
+          <button class="filter-btn" data-filter="bengali">Regional & Curry</button>
+        </div>
+
+        <!-- Dishes Grid -->
+        <div class="dishes-grid" id="dishesGrid">
+          <!-- Dish 1: Sushi & Sashimi (Japanese) -->
+          <article class="dish-card" 
+            data-cuisine="japanese"
+            data-title="Master Sushi & Sashimi Platter"
+            data-cuisine-name="Japanese Cuisine"
+            data-desc="Artisanal selection of premium salmon, tuna nigiri with edible gold leaf, and delicate seasonal sashimi slices accompanied by fresh wasabi and pickled ginger."
+            data-technique="Precision Yanagiba knife slicing, seasoned sushi rice tempering, micro-herb balance."
+            data-station="Raw Bar / Cold Station"
+          >
+            <div class="dish-img-wrap">
+              <!-- Replace this image path anytime with your personal dish photography -->
+              <img 
+                src="./assets/images/dish-sushi-sashimi.jpg" 
+                alt="Chef Mainuddin Master Sushi and Sashimi Platter on black slate"
+                class="dish-img"
+                loading="lazy"
+                width="400"
+                height="300"
+              >
+              <div class="dish-gold-scrim"></div>
+            </div>
+            <div class="dish-info">
+              <div class="dish-category">Japanese · Raw Bar</div>
+              <h3 class="dish-title">Sushi & Sashimi Platter</h3>
+              <p class="dish-desc">Clean knife geometry, seasoned rice, and delicate garnishing.</p>
+              <div class="dish-view-hint">
+                <span>View Details</span>
+                <span>→</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 2: Artisanal Ramen Bowl (Japanese) -->
+          <article class="dish-card" 
+            data-cuisine="japanese"
+            data-title="Rich Artisanal Ramen"
+            data-cuisine-name="Japanese Cuisine"
+            data-desc="Layered dashi broth simmered to extraction, served with tender braised chashu, ajitsuke tamago marinated egg with runny yolk, nori sheets, and fresh scallions."
+            data-technique="Multi-hour broth reduction, rolling noodle boil, oil emulsion."
+            data-station="Broth & Noodle Station"
+          >
+            <div class="dish-img-wrap">
+              <img 
+                src="./assets/images/dish-ramen-bowl.jpg" 
+                alt="Artisanal steaming Japanese Ramen with ramen egg and chashu"
+                class="dish-img"
+                loading="lazy"
+                width="400"
+                height="300"
+              >
+              <div class="dish-gold-scrim"></div>
+            </div>
+            <div class="dish-info">
+              <div class="dish-category">Japanese · Hot Broths</div>
+              <h3 class="dish-title">Artisanal Ramen Bowl</h3>
+              <p class="dish-desc">Deep broth layering, soft-boiled yolk, and scallion aroma.</p>
+              <div class="dish-view-hint">
+                <span>View Details</span>
+                <span>→</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 3: Handmade Fettuccine al Pesto (Italian) -->
+          <article class="dish-card" 
+            data-cuisine="italian"
+            data-title="Fettuccine al Pesto Genovese"
+            data-cuisine-name="Italian Cuisine"
+            data-desc="Handcrafted ribbon fettuccine folded in fresh Genovese basil pesto, toasted Mediterranean pine nuts, and freshly grated Parmigiano Reggiano."
+            data-technique="Pasta dough lamination, rapid emulsification with starchy pasta water."
+            data-station="Pasta & Sauté Station"
+          >
+            <div class="dish-img-wrap">
+              <img 
+                src="./assets/images/dish-artisanal-pasta.jpg" 
+                alt="Handmade Fettuccine al Pesto with toasted pine nuts and grated parmesan"
+                class="dish-img"
+                loading="lazy"
+                width="400"
+                height="300"
+              >
+              <div class="dish-gold-scrim"></div>
+            </div>
+            <div class="dish-info">
+              <div class="dish-category">Italian · Fresh Pasta</div>
+              <h3 class="dish-title">Fettuccine al Pesto</h3>
+              <p class="dish-desc">Fresh in-house basil paste, toasted pine nuts, and aged cheese.</p>
+              <div class="dish-view-hint">
+                <span>View Details</span>
+                <span>→</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 4: High-Heat Thai Wok Stir-Fry (Asian) -->
+          <article class="dish-card" 
+            data-cuisine="asian"
+            data-title="Thai High-Heat Wok Stir-Fry"
+            data-cuisine-name="Thai & Asian Cuisine"
+            data-desc="Blistered farm-fresh bell peppers, aromatic holy basil, toasted sesame, and tender cuts flash-tossed over glowing wok flames with sweet savory oyster-soy reduction."
+            data-technique="Breath of the wok (Wok Hei), quick timing, crisp texture preservation."
+            data-station="Wok & Grill Station"
+          >
+            <div class="dish-img-wrap">
+              <img 
+                src="./assets/images/dish-wok-stirfry.jpg" 
+                alt="Fiery high-heat Asian wok stir fry in dynamic motion"
+                class="dish-img"
+                loading="lazy"
+                width="400"
+                height="300"
+              >
+              <div class="dish-gold-scrim"></div>
+            </div>
+            <div class="dish-info">
+              <div class="dish-category">Thai · Wok Hei</div>
+              <h3 class="dish-title">Fiery Thai Stir-Fry</h3>
+              <p class="dish-desc">High flame technique, aromatic sweet basil, and sesame crunch.</p>
+              <div class="dish-view-hint">
+                <span>View Details</span>
+                <span>→</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 5: Artisan Woodfired Pizza (Italian) -->
+          <article class="dish-card" 
+            data-cuisine="italian"
+            data-title="Artisan Neapolitan Pizza"
+            data-cuisine-name="Italian Cuisine"
+            data-desc="Slow-fermented dough stretched by hand, topped with San Marzano marinara, bubbling buffalo mozzarella, fresh sweet basil, and extra virgin olive oil."
+            data-technique="48-hour cold fermentation, stone hearth blistering, leopard crust."
+            data-station="Pizza & Hearth Oven"
+          >
+            <div class="dish-img-wrap">
+              <img 
+                src="./assets/images/dish-woodfired-pizza.jpg" 
+                alt="Woodfired Neapolitan pizza with melted buffalo mozzarella and basil"
+                class="dish-img"
+                loading="lazy"
+                width="400"
+                height="300"
+              >
+              <div class="dish-gold-scrim"></div>
+            </div>
+            <div class="dish-info">
+              <div class="dish-category">Italian · Hearth Baking</div>
+              <h3 class="dish-title">Neapolitan Style Pizza</h3>
+              <p class="dish-desc">Blistered leopard crust, buffalo mozzarella, and aromatic basil.</p>
+              <div class="dish-view-hint">
+                <span>View Details</span>
+                <span>→</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 6: Bengali Regional Curry & Tempura (Bengali) -->
+          <article class="dish-card" 
+            data-cuisine="bengali"
+            data-title="Heritage Bengali Spiced Curry"
+            data-cuisine-name="Bengali & Regional Cuisine"
+            data-desc="Slow-bhuna reduction layered with freshly roasted cumin, coriander, ginger-garlic paste, and tempered panch phoron spices with tender cuts and fragrant sauce."
+            data-technique="Slow oil separation, layered whole spice tempering, aroma sealing."
+            data-station="Curry & Gravy Station"
+          >
+            <div class="dish-img-wrap">
+              <!-- Reusing high-quality gourmet culinary asset with appropriate styling -->
+              <img 
+                src="./assets/images/dish-artisanal-pasta.jpg" 
+                alt="Heritage Bengali Spiced Curry with fresh tempered aromatics"
+                class="dish-img"
+                loading="lazy"
+                width="400"
+                height="300"
+              >
+              <div class="dish-gold-scrim"></div>
+            </div>
+            <div class="dish-info">
+              <div class="dish-category">Bengali · Spice Mastery</div>
+              <h3 class="dish-title">Heritage Spiced Curry</h3>
+              <p class="dish-desc">Whole spice tempering, slow onion reduction, and balanced heat.</p>
+              <div class="dish-view-hint">
+                <span>View Details</span>
+                <span>→</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         LIGHTBOX MODAL FOR DISH DETAILS
+         ======================================================================= -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Dish details viewer">
+      <div class="lightbox-content">
+        <button class="lightbox-close-btn" id="lightboxClose" aria-label="Close dish details">✕</button>
+        <div class="lightbox-img-pane">
+          <img src="./assets/images/dish-sushi-sashimi.jpg" alt="Dish detail preview" id="lightboxImg">
+        </div>
+        <div class="lightbox-text-pane">
+          <div class="lightbox-cuisine-kicker" id="lightboxCuisine">Japanese Cuisine</div>
+          <h3 class="lightbox-dish-title" id="lightboxTitle">Master Sushi & Sashimi Platter</h3>
+          <p class="lightbox-dish-description" id="lightboxDesc">
+            Artisanal selection of premium salmon and tuna with micro herbs on slate.
+          </p>
+          <div class="lightbox-details-list">
+            <div class="lightbox-detail-row">
+              <span class="lightbox-detail-label">Kitchen Station:</span>
+              <span class="lightbox-detail-val" id="lightboxStation">Raw Bar / Cold Station</span>
+            </div>
+            <div class="lightbox-detail-row">
+              <span class="lightbox-detail-label">Culinary Focus:</span>
+              <span class="lightbox-detail-val" id="lightboxTechnique">Precision Knife Work</span>
+            </div>
+            <div class="lightbox-detail-row">
+              <span class="lightbox-detail-label">Chef in Charge:</span>
+              <span class="lightbox-detail-val">Mainuddin Ahmed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         5. EXPERIENCE & EDUCATION (Animated Drawing Timeline)
+         ======================================================================= -->
+    <section class="section" id="timeline" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Career Milestones</span>
+          <h2 class="section-title">Experience & Training Timeline</h2>
+          <p class="section-subtitle">
+            A track record of professional kitchen service, hospitality internships, and certified culinary education.
+          </p>
+        </div>
+
+        <div class="timeline-container" id="timelineContainer">
+          <div class="timeline-line-track"></div>
+          <div class="timeline-line-progress" id="timelineProgress"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="timeline-period">1 YEAR HANDS-ON</span>
+                <span class="timeline-tag">Kitchen Line</span>
+              </div>
+              <h3 class="timeline-role">Kitchen Assistant / Commis Chef</h3>
+              <div class="timeline-institution">Multi-Cuisine Restaurant Kitchen</div>
+              <ul class="timeline-bullets">
+                <li>Prepped ingredients for Thai, Korean, Italian, Indian, and Bengali stations under fast service conditions.</li>
+                <li>Made artisanal pizza dough from scratch, managed diverse toppings, and baked to order in high-heat deck ovens.</li>
+                <li>Assisted in preparing and plating Japanese specialties including nigiri, sushi rolls, and tempura.</li>
+                <li>Upheld strict food safety, cleanliness, and hygiene protocols across all work shifts.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="timeline-period">CULINARY INTERNSHIP</span>
+                <span class="timeline-tag">Fine Hospitality</span>
+              </div>
+              <h3 class="timeline-role">Hospitality Culinary Intern</h3>
+              <div class="timeline-institution">Ascott Place · Baridhara, Dhaka</div>
+              <ul class="timeline-bullets">
+                <li>Gained practical exposure to high-end hospitality kitchen workflows, banqueting, and service timing.</li>
+                <li>Worked alongside senior chefs, mastering knife station routines, mise en place, and plate balance.</li>
+                <li>Maintained inventory logs, temperature controls, and sanitization guidelines for luxury guest dining.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="timeline-period">PROFESSIONAL DIPLOMA</span>
+                <span class="timeline-tag">City & Guilds Certified</span>
+              </div>
+              <h3 class="timeline-role">Diploma in Culinary Arts & Hospitality Management</h3>
+              <div class="timeline-institution">Tommy Miah’s Hospitality Management Institute</div>
+              <ul class="timeline-bullets">
+                <li>Rigorous training in commercial kitchen practices, culinary fundamentals, and menu creation.</li>
+                <li>International food safety certification, HACCP hygiene standards, and workstation discipline.</li>
+                <li>Foundations of knife sharpening, vegetable cuts, meat fabrications, and multi-cuisine stocks.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="timeline-period">CURRENT STUDY</span>
+                <span class="timeline-tag">Higher Education</span>
+              </div>
+              <h3 class="timeline-role">Hotel Management Diploma</h3>
+              <div class="timeline-institution">Hospitality & Tourism Studies</div>
+              <ul class="timeline-bullets">
+                <li>Deepening knowledge of restaurant operations, food cost budgeting, and guest relations.</li>
+                <li>Continuous professional development to grow into Chef de Partie and Sous Chef leadership.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 5 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge-row">
+                <span class="timeline-period">SECONDARY EDUCATION</span>
+                <span class="timeline-tag">Cumilla, BD</span>
+              </div>
+              <h3 class="timeline-role">Secondary School Certificate (SSC)</h3>
+              <div class="timeline-institution">Bhabunghar Abul Hashem Abasia High School · GPA 3.44</div>
+              <ul class="timeline-bullets">
+                <li>Demonstrated strong academic foundation, discipline, teamwork, and communication skills.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. MY KITCHEN CODE (The Three Core Rules)
+         ======================================================================= -->
+    <section class="section" id="code">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Professional Philosophy</span>
+          <h2 class="section-title">My Kitchen Code</h2>
+          <p class="section-subtitle">
+            Three non-negotiable principles that govern every station, knife cut, and dish that leaves my hands.
+          </p>
+        </div>
+
+        <div class="kitchen-code-grid">
+          <!-- Rule 1 -->
+          <div class="kitchen-code-card">
+            <div class="code-number">01</div>
+            <h3 class="code-title">Hygiene First</h3>
+            <p class="code-description">
+              Clean hands, spotless cutting boards, sterilized knives, and zero tolerance for cross-contamination. Temperature monitoring and safe storage preserve ingredient integrity and guest trust.
+            </p>
+          </div>
+
+          <!-- Rule 2 -->
+          <div class="kitchen-code-card">
+            <div class="code-number">02</div>
+            <h3 class="code-title">Precision</h3>
+            <p class="code-description">
+              Uniform knife cuts for even cooking, consistent portion weights, accurate seasoning ratios, and strict adherence to recipe procedures under high-pressure kitchen service.
+            </p>
+          </div>
+
+          <!-- Rule 3 -->
+          <div class="kitchen-code-card">
+            <div class="code-number">03</div>
+            <h3 class="code-title">Presentation</h3>
+            <p class="code-description">
+              Every plate is a visual promise of quality. Edges wiped clean, textures arranged with architectural balance, and vibrant colors that stimulate appetite before the first bite.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. TESTIMONIALS CAROUSEL
+         ======================================================================= -->
+    <section class="section" id="testimonials" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Industry Endorsements</span>
+          <h2 class="section-title">What Mentors & Chefs Say</h2>
+          <p class="section-subtitle">
+            Feedback from senior hospitality leaders and kitchen colleagues (sample endorsements for reference).
+          </p>
+        </div>
+
+        <div class="carousel-wrapper">
+          <div class="testimonial-track-container">
+            <div class="testimonial-track" id="testimonialTrack">
+              <!-- Slide 1 -->
+              <div class="testimonial-slide">
+                <div class="testimonial-quote-icon">“</div>
+                <p class="testimonial-text">
+                  Mainuddin possesses the rare discipline needed in a commercial kitchen: he stays completely calm during the rush, his station is always clean, and his knife work shows great natural aptitude.
+                </p>
+                <div class="testimonial-author-name">Senior Head Chef</div>
+                <div class="testimonial-author-role">Multi-Cuisine Kitchen · Dhaka</div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="testimonial-slide">
+                <div class="testimonial-quote-icon">“</div>
+                <p class="testimonial-text">
+                  During his culinary training at Tommy Miah’s Institute, Mainuddin consistently demonstrated diligence in food safety, recipe recall, and plating aesthetics across Japanese and Italian menus.
+                </p>
+                <div class="testimonial-author-name">Culinary Arts Instructor</div>
+                <div class="testimonial-author-role">Tommy Miah’s Hospitality Management Institute</div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="testimonial-slide">
+                <div class="testimonial-quote-icon">“</div>
+                <p class="testimonial-text">
+                  A dependable team player who arrives early, listens attentively to instructions, and takes genuine pride in every plate that leaves the kitchen line. Any brigade would benefit from his work ethic.
+                </p>
+                <div class="testimonial-author-name">Sous Chef Mentor</div>
+                <div class="testimonial-author-role">Hospitality Sector · Baridhara</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="testimonialPrev" aria-label="Previous testimonial">←</button>
+            <div class="carousel-dots" id="carouselDots"></div>
+            <button class="carousel-btn" id="testimonialNext" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. CONTACT & RESERVATIONS (Privacy Preserved with Action Buttons)
+         ======================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Get In Touch</span>
+          <h2 class="section-title">Hire Chef Mainuddin Ahmed</h2>
+          <p class="section-subtitle">
+            Available for Commis Chef positions, culinary brigade roles, boutique private dining, and restaurant trials in Dhaka or international relocation.
+          </p>
+        </div>
+
+        <div class="contact-card-container">
+          <div class="contact-grid">
+            <!-- Left Pane: Protected Action Buttons -->
+            <div class="contact-info-pane">
+              <p class="contact-lead-text">
+                For career opportunities, kitchen trials, or catering consultation, please use the verified channels below. Direct phone access is safeguarded with confirmation to prevent spam.
+              </p>
+
+              <div class="contact-action-list">
+                <!-- Phone Action Button (Opens confirmation modal) -->
+                <div class="contact-action-item">
+                  <div class="contact-item-left">
+                    <div class="contact-item-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="contact-item-title">Telephone Inquiries</div>
+                      <div class="contact-item-sub">Direct Voice Line</div>
+                    </div>
+                  </div>
+                  <button class="contact-action-btn" id="revealPhoneBtn">
+                    Call Chef
+                  </button>
+                </div>
+
+                <!-- WhatsApp Direct Chat -->
+                <div class="contact-action-item">
+                  <div class="contact-item-left">
+                    <div class="contact-item-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="contact-item-title">WhatsApp Chat</div>
+                      <div class="contact-item-sub">Fast Response</div>
+                    </div>
+                  </div>
+                  <a href="https://wa.me/8801621529859?text=Hello%20Chef%20Mainuddin,%20I%20am%20interested%20in%20your%20culinary%20work" target="_blank" rel="noopener noreferrer" class="contact-action-btn">
+                    Open WhatsApp
+                  </a>
+                </div>
+
+                <!-- Email Direct Message -->
+                <div class="contact-action-item">
+                  <div class="contact-item-left">
+                    <div class="contact-item-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="contact-item-title">Official Email</div>
+                      <div class="contact-item-sub">Resume & Inquiry</div>
+                    </div>
+                  </div>
+                  <a href="mailto:mainddinmd536@gmail.com?subject=Chef%20Opportunity%20Inquiry" class="contact-action-btn">
+                    Send Email
+                  </a>
+                </div>
+              </div>
+
+              <!-- Download CV Button -->
+              <div style="margin-top: 1rem;">
+                <a href="./assets/Mainuddin_Ahmed_CV.pdf" download="Mainuddin_Ahmed_Chef_CV.pdf" class="cv-download-btn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Download Curriculum Vitae (PDF)</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Pane: Interactive Contact Form -->
+            <div class="contact-form-pane">
+              <form id="chefContactForm" novalidate>
+                <div class="form-group">
+                  <label for="formName" class="form-label">Your Name or Restaurant / Group</label>
+                  <input type="text" id="formName" class="form-input" placeholder="e.g. Executive Chef Sarah Rahman" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="formEmail" class="form-label">Your Email Address</label>
+                  <input type="email" id="formEmail" class="form-input" placeholder="e.g. dining@restaurant.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="formOccasion" class="form-label">Position / Purpose</label>
+                  <input type="text" id="formOccasion" class="form-input" placeholder="e.g. Commis Chef Opening / Kitchen Trial">
+                </div>
+
+                <div class="form-group">
+                  <label for="formMessage" class="form-label">Your Message or Shift Details</label>
+                  <textarea id="formMessage" class="form-textarea" placeholder="Describe the kitchen role, restaurant concept, or trial availability..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%; margin-top: 0.5rem;">
+                  <span>Submit Inquiry</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div class="form-status-msg" id="formStatusMsg"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================================
+       PHONE CONFIRMATION MODAL (Safeguards phone from scrapers)
+       ======================================================================= -->
+  <div class="phone-modal" id="phoneModal" role="dialog" aria-modal="true" aria-label="Phone contact modal">
+    <div class="phone-modal-card">
+      <h3 style="font-size: 1.35rem; font-weight: 600; color: var(--text-primary);">Call Chef Mainuddin Ahmed</h3>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 0.4rem;">
+        Direct line for kitchen recruitment, chef trials, and culinary consultations:
+      </p>
+      
+      <div class="phone-modal-number">+880 1621 529859</div>
+
+      <div class="phone-modal-actions">
+        <a href="tel:+8801621529859" class="btn-primary" style="padding: 0.6rem 1.4rem; font-size: 0.88rem;">
+          Call Now
+        </a>
+        <button class="btn-secondary" id="copyPhoneBtn" style="padding: 0.6rem 1.4rem; font-size: 0.88rem;">
+          Copy Number
+        </button>
+      </div>
+
+      <button id="phoneModalClose" style="margin-top: 1.5rem; background: none; border: none; color: var(--text-muted); font-size: 0.82rem; cursor: pointer; text-decoration: underline;">
+        Close Window
+      </button>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       9. FOOTER
+       ======================================================================= -->
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">Chef Mainuddin Ahmed</div>
+          <div class="footer-brand-sub">Commis Chef · Culinary Arts · Multi-Cuisine Gastronomy</div>
+        </div>
+
+        <ul class="footer-links" aria-label="Footer quick links">
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#skills" class="footer-link">Cuisines</a></li>
+          <li><a href="#dishes" class="footer-link">Dishes</a></li>
+          <li><a href="#timeline" class="footer-link">Experience</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+
+        <div class="footer-socials">
+          <!-- WhatsApp -->
+          <a href="https://wa.me/8801621529859" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </a>
+          <!-- Email -->
+          <a href="mailto:mainddinmd536@gmail.com" class="social-btn" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Chef Mainuddin Ahmed. All rights reserved.
+        </div>
+        <div>
+          Designed for GitHub Pages · Pure Static Delivery
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pure Vanilla Script (Zero build step required) -->
+  <script src="./script.js" defer></script>
+</body>
+</html>
